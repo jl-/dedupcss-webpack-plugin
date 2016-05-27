@@ -1,0 +1,33 @@
+{
+  "name": "dedupcss-webpack-plugin",
+  "version": "0.0.0",
+  "description": "webpack plugin for css deduplicate, remove duplicated css rules",
+  "main": "plugin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jl-/dedupcss-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "css",
+    "remove",
+    "duplicate",
+    "duplication",
+    "deduplicate"
+  ],
+  "dependencies": {
+    "postcss": "^5.0.21",
+    "loader-utils": "^0.2.15",
+    "qs": "^6.2.0"
+  },
+  "author": "jl- <i.dragonxx@gmail.com> (http://jlxy.cz)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jl-/dedupcss-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/jl-/dedupcss-webpack-plugin"
+}
