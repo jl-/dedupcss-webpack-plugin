@@ -17,3 +17,6 @@ var DedupCSSPlugin = require('dedupcss-webpack-plugin');
 
 ```
 
+Options:
+- suffix: a suffix for the deduped asset. Defaults to '.css'
+- override: if set to true the original asset will be overriden. Defaults to false.
