@@ -24,6 +24,9 @@
     "loader-utils": "^0.2.15",
     "qs": "^6.2.0"
   },
+  "peerDependencies": {
+    "webpack": "1"
+  },
   "author": "jl- <i.dragonxx@gmail.com> (http://jlxy.cz)",
   "license": "MIT",
   "bugs": {
