@@ -5,7 +5,7 @@ var RawSource = require('webpack/lib/RawSource');
 function DedupCSSPlugin(opts) {
   var options = this.options = {};
   opts = opts || {};
-  options.suffix = !!opts.override ? '' : (opts.suffix || '') + '.css';
+  options.suffix = !!opts.override ? '' : (opts.suffix || '');
 }
 
 function deduplicate(root) {

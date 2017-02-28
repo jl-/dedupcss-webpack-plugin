@@ -1,6 +1,6 @@
 {
   "name": "dedupcss-webpack-plugin",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "webpack plugin for css deduplicate, remove duplicated css rules",
   "main": "plugin.js",
   "scripts": {
